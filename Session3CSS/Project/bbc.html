@@ -4,262 +4,182 @@
 	
 		<title>Technology - BBC News</title>
 
-		<style type="text/css">
-
-			#topbar {
-
-				width: 1500px;
-				margin: 0 auto;
-				height: 40px;
-			}
-
-			body {
-
-				margin: 0;
-				padding: 0;
-				font-family: Helvetica, Arial, sans-serif;
-			}
-
-			#logo {
-
-				margin-top: 8px;
-				width: 100px;
-				float: left;
-				margin-right: 8px;
-			}
-
-			.topbar-section {
-
-				float: left;
-				border-left: 1px #CCCCCC solid;
-				height: 100%;
-			}
-
-			#signin-image {
-
-				margin: 12px 15px;
-				width: 25px;
-				float: left;
-
-			}
-
-			#signin-text {
-
-				font-weight: bold;
-				font-size: 90%;
-				position: relative;
-				top: 14px;
-				padding-right: 50px;
-
-			}
-			#ring-div {
-
-				float: left;
-
-			}
-
-			#wigglyline {
-
-				float: left;
-			}
-
-			#ring {
-				height: 25px;	
-				margin: 9px 8px 0 8px;
-				
-			}
-
-			.topbar-menu {
-
-				font-weight: bold;
-				font-size: 90%;
-				padding: 13px 15px 0 15px;
-				height: 27px;
-			}
-
-			#more-arrow {
-
-				width: 15px;
-				margin-right: 15px;
-			}
-
-			#search-box {
-
-				background-color: #E4E4E4;
-				border: none;
-				font-weight: bold;
-				font-size: 14px;
-				padding: 5px;
-				margin: 8px 0 5px 5px;
-				float: left;
-
-			}
-
-			#magnifying-glass {
-
-				height: 26px;
-				margin-top: 8px;
-			}
-
-			.clear {
-
-				clear: both;
-			}
-
-			#menu-bar-container {
-				border-top: 1px solid #CCCCCC;
-				background-color: #BB1919;
-				width: 100%;
-				height: 70px;
-
-			}
-
-			#menu-bar {
-
-				width: 1500px;
-				margin: 0  auto;
-
-			}
-
-			h1 {
-
-				padding: 0;
-				margin: 0;
-				color: white;
-				font-size: 40px;
-				font-weight: normal;
-				padding-top: 10px;
-				float: left;
-			}
-
-			#local-news {
-				
-				border: 1px #BB4545 solid;
-				float: right;
-				width: 250px;
-				padding: 5px 5px 0 5px;
-				margin: 5px 10px 0 0;
-
-	
-			}
-
-			#local-news a {
-				
-				color:white;
-				text-decoration: none;
-				font-size: 30px;
-				position: relative;
-				top: -8px;
-
-			}
-
-			#local-news a:hover {
-				
-				text-decoration: underline;
-			}
-
-			#local-news img {
-				height: 40px;
-
-			}
-
-			#menu-bar-2-container {
-
-				background-color: #A91717;
-				width: 100%;
-			}
-
-			menu-bar-2 {
-				width: 1000px;
-				margin: 0 auto;
-				height: 30px;
-			}
-
-
-		</style>
+		<link rel="stylesheet" type="text/css" href="css/bbc.css">
 
 	</head>
 
-	<body>
+		<body>
 
-		<div id="topbar">
-			<img id="logo" src="img\bbc-blocks-dark.png">
+			<div id="topbar">
+				<img id="logo" src="img\bbc-blocks-dark.png">
 
-			<div id="signin-div" class="topbar-section">
-				<img id="signin-image" src="img\signinimage.png">
-				<span id="signin-text">Sign in</span>
-			</div>
+				<div id="signin-div" class="topbar-section">
+					<img id="signin-image" src="img\signinimage.png">
+					<span id="signin-text">Sign in</span>
+				</div>
 
-			<div id="ring-div">
-				<img id="wigglyline"src="img\wigglyline.png">
-				<img id="ring"src="img\ring.png">
+				<div id="ring-div">
+					<img id="wigglyline"src="img\wigglyline.png">
+					<img id="ring"src="img\ring.png">
 
-			</div>
+				</div>
 
-			<div class="topbar-section topbar-menu">
-				News
-			</div>
+				<div class="topbar-section topbar-menu">
+					News
+				</div>
 
-			<div class="topbar-section topbar-menu">
-				Sport
-			</div>
+				<div class="topbar-section topbar-menu">
+					Sport
+				</div>
 
-			<div class="topbar-section topbar-menu">
-				Weather
-			</div>
+				<div class="topbar-section topbar-menu">
+					Weather
+				</div>
 
-			<div class="topbar-section topbar-menu">
-				iPlayer
-			</div>
+				<div class="topbar-section topbar-menu">
+					iPlayer
+				</div>
 
-			<div class="topbar-section topbar-menu">
-				TV
-			</div>
+				<div class="topbar-section topbar-menu">
+					TV
+				</div>
 
-			<div class="topbar-section topbar-menu">
-				Radio
-			</div>
+				<div class="topbar-section topbar-menu">
+					Radio
+				</div>
 
-			<div class="topbar-section topbar-menu">
-				More
-				<img  id="more-arrow" src="img\more-arrow.png">
-			</div>
+				<div class="topbar-section topbar-menu">
+					More
+					<img  id="more-arrow" src="img\more-arrow.png">
+				</div>
 
-			<div class="topbar-section">
-				<input id="search-box" type="text" value="Search">
-				<input type="image" id="magnifying-glass"src="img/magnifying.png">
-			</div>
-
-		</div>
-
-		<div class="clear"></div>
-
-		<div id="menu-bar-container">
-			<div id="menu-bar">
-				<h1>NEWS</h1>
-
-				<div id="local-news">
-					<a href>Find local news</a>
-					<img src="img/location.png">
+				<div class="topbar-section">
+					<input id="search-box" type="text" value="Search">
+					<input type="image" id="magnifying-glass"src="img/magnifying.png">
 				</div>
 
 			</div>
 
-			<div class="clear"> </div>
+			<div class="clear"></div>
 
-			<div id="menu-bar-2-container">
+			<div id="menu-bar-container">
+				<div id="menu-bar">
+					<h1>NEWS</h1>
 
-				<div id="menu-bar-2"></div>
+					<div id="local-news">
+						<a href>Find local news</a>
+						<img src="img/location.png">
+					</div>
+
+				</div>
+
+				<div class="clear"> </div>
+
+				<div id="menu-bar-2-container">
+
+					<div id="menu-bar-2">
+
+						<a href="">Home</a>
+						<a href="">UK</a>
+						<a href="">World</a>
+						<a href="">Business</a>
+						<a href="">Politics</a>
+						<a href="">Tech</a>
+						<a href="">Science</a>
+						<a href="">Health</a>
+						<a href="">Education</a>
+						<a href="">Entertainment & Arts</a>
+						<a href="">Video and Audio</a>
+						<a href="" class="no-border">More</a>
+
+						<img id ="down-arrow" src="img/down-arrow.png">
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="clear"></div>
+
+			<div id="page-container">
+
+			<div id="main-article"> 
+
+				<h2>Technology</h2>
+
+				<div id="article-container">
+
+					<h3><a href=""> Asda bug exposed payment details</a></h3>
+
+					<div id="article-summary">
+						<p>Security vulnerabilities that put customers at risk have affected Asda's website for a couple of years, a security expert has revealed.</p>
+
+						<p><img class="clock" src="img/clock.png"> <span class="date">19 January 2016 </span><a class="topic-link" href="">Technology</a></p>
+
+						<hr id="article-hr" align="left">
+
+							<p><a class="article-link" href="">Surveillance firm hit in hack attack</a></p>
+
+							<p><a class="article-link" href="">eBay flaw has existed for months</a></p>
+
+					</div>
+
+					<img id="main-article-image" src="img/main-article-image.png">					
+
+				</div>
+
+			</div>
+
+			<div class="clear"></div>
+
+			<div id="watch-listen">
+
+				<h4>Watch/Listen</h4>
+				<img class="article-side-image" src="img/article1.png">
+
+				<div class="side-article">
+
+					<p><a class="watch-listen-link" href="">UK science chief backs blockchains</a></p>
+
+					<p><img class="clock" src="img/clock.png"> <span class="date">19 January 2016 </span></p>
+
+				</div>
+
+				<div class="clear"></div>
+
+				<img class="article-side-image" src="img/article2.png">
+
+				<div class="side-article">
+
+					<p><a class="watch-listen-link" href="">Drone register gives 'accountability'</a></p>
+
+					<p><img class="clock" src="img/clock.png"> <span class="date border-right">19 January 2016</span><br><a class="topic-link no-border" href="">Technology</a></p>
 
 
 
 			</div>
 
-			
+
+			<div class="clear"></div>
+
+				<img class="article-side-image" src="img/article3.png">
+
+				<div class="side-article">
+
+					<p><a class="watch-listen-link" href="">Drone register gives 'accountability'</a></p>
+
+					<p><img class="clock" src="img/clock.png"> <span class="date border-right">19 January 2016</span><br><a class="topic-link no-border" href="">Technology</a></p>
+
+
+
+			</div>
+
+
 
 		</div>
+			
 		
-	
-	</body>
+		</body>
 
 </html
