@@ -1,0 +1,62 @@
+<html>
+
+	<head>
+	
+		<title>Javascript</title>
+
+
+
+	</head>
+
+		<body>
+
+			<script type="text/javascript">
+
+				var myArray = new Array();
+				myArray[0] = "pizza";
+				myArray[1] = "chocolate";
+
+				var otherArray = ["Breakfast", "Lunch"];
+				console.log(otherArray);
+				alert(otherArray);
+
+				otherArray.push("Snack");
+
+				console.log(otherArray);
+				alert(otherArray);
+
+				otherArray.splice(2,1); //Remove starting index 2, 1 entry
+
+				alert(otherArray);
+
+				
+				otherArray.push("Dinner");
+				otherArray.push("Snack");
+				otherArray.push("Snack");				
+				otherArray.push("Snack");
+				alert(otherArray);
+
+				otherArray.splice(3,3); //Remove starting from index 3, 3 entries
+
+
+				console.log(otherArray);
+				alert(otherArray);
+
+				//Adding with splice
+
+				otherArray.splice(2, 0,"Afternoon Snack"); // 2 = Add on index 2. 0 = Not remove the next index. 
+
+				alert(otherArray);
+
+				otherArray.splice(2, 2,"Snack"); // 2 = Add on index 2. = Replace the currently value on this index. To replace the next indexes change to 2, 3, etc.
+
+				alert(otherArray);
+
+
+
+
+			</script>
+			
+		</body>
+
+</html>

@@ -1,0 +1,38 @@
+<html>
+
+	<head>
+	
+		<title>Javascript</title>
+
+	</head>
+
+		<body>
+
+			<input id = "userType">
+			<button id = "submit">Submit</button>
+	
+			<script type="text/javascript">
+				
+				
+				document.getElementById("submit").onclick = function() {
+
+				var numRandom = Math.floor((Math.random()*10)+1);
+				
+				var numberTyped = document.getElementById("userType").value;
+
+				if (numberTyped == numRandom) {
+					alert("You hit! Congratulation");
+				}else {
+					alert("No.Try again");
+				}
+
+
+				}
+
+
+	
+			</script>
+			
+		</body>
+
+</html>
