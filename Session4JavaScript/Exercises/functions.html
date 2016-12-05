@@ -1,0 +1,59 @@
+<html>
+
+	<head>
+	
+		<title>Javascript</title>
+
+	</head>
+
+		<body>
+
+	
+			<script type="text/javascript">
+
+				function doAGuess(correctAnswer) {
+
+					var guess = Math.random();
+
+					guess = guess * 6;
+
+					guess = Math.floor(guess);
+
+					if (guess == correctAnswer){
+						return(true);
+					}else {						
+						return(false);
+					}
+
+
+				}
+
+				document.getElementById("guess").onclick = function() {
+
+					var myNumber = document.getElementById ("myNumber").value;
+
+					var gotIt = false;
+
+					var numberOfGuesses = 1;
+
+					while (gotIt == false){
+
+					if (doAguess(myNumber) == true_{
+						
+						gotIt = true;
+
+						alert ("Got It!  It was a " + myNumber + ". It Took me " + numberOfGuesses + " guesses.")
+					}else {							numberOfGuesses++;
+					}
+
+					}
+
+				}
+
+
+
+			</script>
+			
+		</body>
+
+</html>

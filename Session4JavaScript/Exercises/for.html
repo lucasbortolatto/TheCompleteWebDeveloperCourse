@@ -1,0 +1,39 @@
+<html>
+
+	<head>
+	
+		<title>Javascript</title>
+
+	</head>
+
+		<body>
+
+			<p id = "line0"></p>
+			<p id = "line1"></p>
+			<p id = "line2"></p>
+
+			<div id="tweetDiv"></div>
+	
+			<script type="text/javascript">
+				var tweetString = "";
+					
+				var tweets = ["Hi Everyone", "Good Morning", "Good Evening :)"]
+
+				for (var i = 0; i < tweets.length ; i++) {
+
+					document.getElementById("line"+i).innerHTML = tweets[i];
+					
+				}
+
+				for (var i=0;i < tweets.length; i++) {
+
+					tweetString = tweetString + "<p>" + tweets[i] + "</p>";
+				}
+
+				document.getElementById("tweetDiv").innerHTML = tweetString;
+	
+			</script>
+			
+		</body>
+
+</html>
