@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title> </title>
+
+        <script type = "text/javascript" src="../jquery.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+    </head>
+
+    <body>
+        <div id = "circle"> </div>
+        <p> This is some text </p>
+
+        <iframe src="http://www.cnn.com"></iframe>
+
+        <script>
+
+            $("#circle").click(function() {
+                $("p").html("This text has changed");
+            });
+
+            $("#circle").hover(function() {
+                $("iframe").attr("src", "https://www.google.com.br");
+            });
+
+        </script>
+    </body>
+
+</html>
